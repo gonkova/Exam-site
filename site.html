@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="/normalizeCss/normalizecss.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--HEADER START-->
+    <div class="header">
+        <div class="logo"></div>
+        <div class="header-flexs">
+            <div class="header-left">
+                <div class="header-text">
+                    <div class="header-title">
+                        <span class="header-title-online">ОНЛАЙН</span></br>
+                        ПЛАТФОРМА ЗА</br>
+                        <span class="header-title-motivation">МОТИВАЦИЯ!</span>
+                    </div>
+                    <p>Идеалното място за намиране на мотивация!</p>
+                    <div>
+                        <button id="btn-ht" class="btn-a">Научи повече</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-header-right">
+                <div class="header-right-nav">
+                    <div class="nav-left">
+                        <ul>
+                            <li class="nav-left-item">
+                                <a href="">Вход</a>
+                            </li>
+                            <li class="nav-left-item">
+                                <a href="">Регистрация</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <button onclick="toggle()"> <i class="fa fa-bars"></i></button>
+                    </div>
+                    <div class="nav" id="nav">
+                        <a href="">
+                            <span>Начало</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <a href="">
+                            <span>За нас</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <a href="">
+                            <span>Контакти</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <a id="nav-mobile" href="">
+                            <span>Вход</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <a id="nav-mobile" href="">
+                            <span>Регистрация</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-search">
+                <input id="search" type="text" placeholder="Търси категория">
+                <input id="search" type="text" placeholder="Автор">
+                <button id="btn-search">ТЪРСИ</button>
+            </div>
+        </div>
+    </div>
+    <!--HEADER END-->
+
+    <!--ABOUT US START-->
+    <div class="main-container-about">
+        <div class="container-about">
+            <div class="about-left"></div>
+            <div class="about-right">
+                <div>
+                    <span class="fs-a"></span>
+                    <span class="fs-b">ЗА НАС</span>
+                </div>
+                <p class="fp">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae labore odio sunt tenetur natus aspernatur quas,
+                    laborum autem quibusdam atque.
+                </p>
+                <button class="btn-a" id="btn-about">Научи повече</button>
+            </div>
+        </div>
+    </div>
+    <!--ABOUT US END-->
+
+    <!--MOTIVATION START-->
+    <div class="mt-d">
+        <span class="fs-a"></span>
+        <span class="fs-b">ДНЕВНА ДОЗА МОТИВАЦИЯ</span>
+        <p class="fp">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum?
+        </p>
+    </div>
+    <div class="mt-mobile">
+        <span class="fs-a"></span>
+        <span class="fs-b">ДНЕВНА ДОЗА <span style="margin-left:0.6rem;">МОТИВАЦИЯ</span></span>
+        <p class="fp">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum?
+        </p>
+    </div>
+    <div class="container-motivation">
+        <div>
+            <div class="box-m-one"></div>
+            <div class="m-td">
+                <span>Lorem, ipsum dolor.</span>
+                <p class="m-tp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="box-m-two"></div>
+            <div class="m-td">
+                <span>Lorem, ipsum dolor.</span>
+                <p class="m-tp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="box-m-three"></div>
+            <div class="m-td">
+                <span>Lorem, ipsum dolor.</span>
+                <p class="m-tp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="box-m-four"></div>
+            <div class="m-td">
+                <span>Lorem, ipsum dolor.</span>
+                <p class="m-tp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="box-m-five"></div>
+            <div class="m-td">
+                <span>Lorem, ipsum dolor.</span>
+                <p class="m-tp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="box-m-six"></div>
+            <div class="m-td">
+                <span>Lorem, ipsum dolor.</span>
+                <p class="m-tp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="btn-motivation">
+        <button class="btn-a">Научи повече</button>
+    </div>
+    <!--MOTIVATION END-->
+
+    <!--PRICE START-->
+    <div class="pt">
+        <span class="fs-a"></span>
+        <span class="fs-b">ЦЕНИ</span>
+        <p class="fp">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, repellat.
+        </p>
+    </div>
+    <div class="container">
+        <div class="price-container">
+            <div class="price-box">
+                <div class="p-title">НАЧАЛЕН</div>
+                <div class="p-main">
+                    <div class="p-price">10<span
+                            style="font-size:2rem;border-bottom:4px solid white;padding:0.3rem;">лв</span><span
+                            style='font-size:40px;'>/</span>м</span></div>
+                    <p class="p-items">
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                    </p>
+                </div>
+                <div class="p-footer">
+                    <button class="p-btn">КУПИ</button>
+                </div>
+            </div>
+            <div class="price-box">
+                <div class="p-title">СТАНДАРТЕН</div>
+                <div class="p-main">
+                    <div class="p-price">10<span
+                            style="font-size:2rem;border-bottom:4px solid white;padding:0.3rem;">лв</span><span
+                            style='font-size:40px;'>/</span>м</span></div>
+                    <p class="p-items">
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                    </p>
+                </div>
+                <div class="p-footer">
+                    <button class="p-btn">КУПИ</button>
+                </div>
+            </div>
+            <div class="price-box">
+                <div class="p-title">ВИП</div>
+                <div class="p-main">
+                    <div class="p-price">10<span
+                            style="font-size:2rem;border-bottom:4px solid white;padding:0.3rem;">лв</span><span
+                            style='font-size:40px;'>/</span>м</span></div>
+                    <p class="p-items">
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                        LOREM IPSUM<br />
+                    </p>
+                </div>
+                <div class="p-footer">
+                    <button class="p-btn">КУПИ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PRICE END-->
+
+    <!--INFO START-->
+    <div class="info-banner">
+        <div class="container-banner">
+            <div class="box-banner-one">
+                <div class="banner-desktop">
+                    <span class="fs-a"></span>
+                    <span class="fs-b">Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="banner-mobile">
+                    <span class="fs-a"></span>
+                    <span class="fs-b">Lorem ipsum </br><span style="margin-left:0.6rem;">sit amet.</span></span>
+                </div>
+                <p class="fp">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    A mollitia assumenda quibusdam officiis veritatis necessitatibus
+                    aliquid numquam, doloremque nobis alias nam quasi laborum repudiandae
+                    minima dolor fugiat quidem sunt cumque?
+                </p>
+                <button id="btn-banner" class="btn-a">Научи повече</button>
+            </div>
+            <div class="banner-items">
+                <div class="box-banner-two"></div>
+                <div class="box-banner-three"></div>
+            </div>
+        </div>
+    </div>
+    <!--INFO END-->
+
+    <!--WHY CHOOSE US START-->
+    <div class="choose">
+        <div class="container-choose-title">
+            <div class="choose-title">ЗАЩО ДА ИЗБЕРЕТЕ НАС?</div>
+        </div>
+        <div class="choose-items">
+            <div class="choose-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg>
+                <div class="choose-a">200+</div>
+                <div class="choose-b">ЛОКАЦИИ</div>
+            </div>
+            <div class="choose-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" class="bi bi-pencil"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+                </svg>
+                <div class="choose-a">50000+</div>
+                <div class="choose-b">ЦИТАТА</div>
+            </div>
+            <div class="choose-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" class="bi bi-people"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+                </svg>
+                <div class="choose-a">10000+</div>
+                <div class="choose-b">ДОВОЛНИ КЛИЕНТИ</div>
+            </div>
+            <div class="choose-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" class="bi bi-cash-coin"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                    <path
+                        d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+                    <path
+                        d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+                </svg>
+                <div class="choose-a">1500+</div>
+                <div class="choose-b">НИСКИ ЦЕНИ</div>
+            </div>
+        </div>
+        <div class="btn-center">
+            <button class="btn-choose">СВЪРЖИ СЕ С НАС</button>
+        </div>
+    </div>
+    <!--WHY CHOOSE US END-->
+
+    <!--SLIDER START-->
+    <div class="slider">
+        <div class="container-slider-title">
+            <div class="slider-title">Какво казват клиентите за нас</div>
+        </div>
+        <div class="container-slider">
+            <div class="btn-one">
+                <button class="btn">&#10094</button>
+            </div>
+            <div class="slider-boxes">
+                <div class="box-slider-a"></div>
+                <div class="box-slider-b">
+                    <img src="/images/pesho.jpg" id="img" alt="">
+                </div>
+            </div>
+            <div class="slider-text">
+                <div class="title-sl-t">Пешо <span style='font-size:20px;'>&#9644;</span></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias optio hic dolorem minima, ipsa quisquam ullam eum
+                    recusandae explicabo quidem, ipsam non aut eaque et inventore
+                    animi dolor soluta. Odio, nesciunt magni exercitationem minima
+                    inventore consequuntur? Assumenda incidunt nihil in ipsa excepturi
+                    eius sed reprehenderit ut. Tenetur blanditiis illo minima.
+                </p>
+            </div>
+            <div class="btn-two">
+                <button class="btn">&#10095</button>
+            </div>
+            <div class="btn-slider-two">
+                <div class="btn-slider-a">
+                    <button class="btn">&#10094</button>
+                </div>
+                <div class="btn-slider-b">
+                    <button class="btn">&#10095</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SLIDER END-->
+
+    <!--CONTACT US START-->
+    <div class="container-contact">
+        <div class="contact-title">Свържи се с нас</div>
+    </div>
+    <div slass="contact-us">
+        <div class="container-contact-us">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6002641.044979094!2d25.543272!3d42.725376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8fec1c85bf089%3A0xa01269bf4c10!2z0JHRitC70LPQsNGA0LjRjw!5e0!3m2!1sbg!2sbg!4v1675521396365!5m2!1sbg!2sbg"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="container-contact-form">
+                <form action="">
+                    <input type="text" id="names" name="names" placeholder="Имена">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="tel" id="pfone" name="phone" placeholder="Телефон">
+                    <textarea id="subject" name="subject" placeholder="Съобщение"></textarea>
+                    <div class="container-send">
+                        <input id="send" type="submit" value="ИЗПРАТИ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--CONTACT US END-->
+
+    <!--FOOTER START-->
+    <div class="footer">
+        <div class="container-footer">
+            <div class="footer-about">
+                <div class="footer-title">
+                    За нас
+                </div>
+                <div class="about-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg> <span>Lorem, ipsum dolor.</span>
+                </div>
+                <div class="about-box">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="32" height="32" viewBox="0 0 32 32">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path
+                            d="M23.086 1.606h-14.173c-0.797 0-1.444 0.647-1.444 1.444v25.901c0 0.798 0.647 1.444 1.444 1.444h14.173c0.797 0 1.444-0.646 1.444-1.444v-25.901c0-0.797-0.647-1.444-1.444-1.444zM23.464 28.951c0 0.208-0.169 0.377-0.377 0.377h-14.173c-0.208 0-0.377-0.169-0.377-0.377v-4.95h14.928v4.95zM23.464 22.934h-14.928v-17.042h14.928v17.042zM23.464 4.826h-14.928v-1.776c0-0.208 0.169-0.378 0.377-0.378h14.173c0.208 0 0.377 0.17 0.377 0.378v1.776z"
+                            fill="#ffffff"></path>
+                        <path d="M14.401 26.129h3.199v1.066h-3.199v-1.066z" fill="#ffffff"></path>
+                    </svg> <span>0888888888</span>
+                </div>
+                <div class="about-box">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="32" height="32" viewBox="0 0 28 22">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M8.664 15.88l-7.992-7.991v15.983z" fill="#ffffff"></path>
+                        <path d="M14.881 18.831l11.362-11.361h-24.483l11.362 11.361c0.47 0.47 1.289 0.47 1.759 0z"
+                            fill="#ffffff"></path>
+                        <path
+                            d="M18.586 16.634l-2.951 2.951c-0.436 0.436-1.016 0.677-1.633 0.677s-1.197-0.241-1.633-0.677l-2.951-2.95-7.896 7.895h24.961l-7.896-7.896z"
+                            fill="#ffffff"></path>
+                        <path d="M19.341 15.88l7.988 7.988v-15.975z" fill="#ffffff"></path>
+                    </svg> <span> email@email.com</span>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="footer-title">Информация</div>
+                <p class="footer-info-text">
+                    Lorem ipsum dolor,sit amet consectetur adipisicing elit.Mollitia, deserunt ut inventore eum
+                    recusandae nobis!
+                </p>
+            </div>
+            <div class="container-f-nav">
+                <div id="mom" class="footer-title">Връзки</div>
+                <div class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="">Общи условия</a>
+                        </li>
+                        <li>
+                            <a href="">GDPR</a>
+                        </li>
+                        <li>
+                            <a href="">За нас</a>
+                        </li>
+                        <li>
+                            <a href="">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-news">
+                <div class="footer-title">Новини</div>
+                <div class="f-footer">
+                    <form action="">
+                        <input type="email" id="e-news" placeholder="Въведи имейла си" name="email" required><br />
+                        <input type="submit" id="subscribe" value="ЗАПИШИ СЕ">
+                    </form>
+                </div>
+                <div class="i-brand">
+                    <div class="brands">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="ft">2022 &copy; BLACADZ Всички права запазени!</div>
+        </div>
+    </div>
+    <!--FOOTER END-->
+    <div style="height:1000px"></div>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
